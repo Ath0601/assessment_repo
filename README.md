@@ -11,6 +11,8 @@ This repository contains a full pick-and-place simulation of the **XArm5 robot**
 - Octomap mapping using RGB-D point cloud  
 - Rviz2 visualization  
 
+The gz_ros2_control package was built from source for use along with ROS2 Humble and Gazebo Harmonic.
+
 ---
 
 ## Workspace Structure
