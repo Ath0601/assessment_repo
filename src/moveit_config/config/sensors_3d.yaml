@@ -1,0 +1,13 @@
+sensors:
+  - depth_sensor
+
+depth_sensor:
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  point_cloud_topic: /world/empty/model/xarm5/link/link5/sensor/rgbd_camera/points
+  max_range: 2.0
+  point_subsample: 1
+  padding_offset: 0.02
+  padding_scale: 1.0
+  filtered_cloud_topic: filtered_cloud
+  max_update_rate: 1.0
+  queue_size: 200.0

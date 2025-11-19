@@ -1,0 +1,31 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    xarm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    gripper_controller:
+      type: forward_command_controller/ForwardCommandController
+
+xarm_controller:
+  ros__parameters:
+    joints:
+        - joint1
+        - joint2
+        - joint3
+        - joint4
+        - joint5
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+gripper_controller:
+  ros__parameters:
+    joints:
+        - gripper_drive_joint
+    interface_name: position
