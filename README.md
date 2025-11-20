@@ -11,8 +11,6 @@ This repository contains a full pick-and-place simulation of the **XArm5 robot**
 - Octomap mapping using RGB-D point cloud  
 - Rviz2 visualization  
 
-The gz_ros2_control package was built from source for use along with ROS2 Humble and Gazebo Harmonic.
-
 ---
 
 ## Workspace Structure
@@ -67,6 +65,6 @@ This will start:
 [**Video Link**](https://raw.githubusercontent.com/Ath0601/assessment_repo/main/src/Screencast%20from%2011-19-2025%2005%3A57%3A26%20PM.webm)
 
 ## Current Status
-  The simulation launches with Gazebo Harmonic, RViz2 and MoveIt2. RGB and RGB-D cameras have been implemented and are 
+The simulation launches with Gazebo Harmonic, RViz2 and MoveIt2. RGB and RGB-D cameras have been implemented and are 
 running properly. The boxes spawn in the Gazebo environment but do not spawn in the RViz currently. The Octomap still 
-needs to be implemented and still has some errors.
+needs to be implemented and still has some errors. The gz_ros2_control package was built from source for use along with ROS2 Humble and Gazebo Harmonic. 
